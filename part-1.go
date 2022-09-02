@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main() {
+func partOne() {
 	x := 0
 	fmt.Print("Please enter an integer: ")
 	// Scan input from command line
@@ -70,4 +70,8 @@ func main() {
 
 	// Second output
 	fmt.Println(slice_end2, map_end2)
+}
+
+func main() {
+	partOne()
 }
